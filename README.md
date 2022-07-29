@@ -9,7 +9,7 @@ Info: Azure only supports snapshots of disks, there is no possibility to perform
 - Before using perform 'az login'
 
 # Installation
-You can download the files an copy then directly into your PowerShell module path or simply install it via PowerShell from the PowerShell Gallery (https://www.powershellgallery.com/packages/AzureVMSnapshot/0.0.1).
+You can download the files an copy then directly into your PowerShell module path or simply install it via PowerShell from the PowerShell Gallery (https://www.powershellgallery.com/packages/AzureVMSnapshot).
 
 ```powershell
 Install-Module -Name AzureVMSnapshot
