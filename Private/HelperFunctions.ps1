@@ -121,7 +121,7 @@ function Confirm-SnapshotList {
         throw "`nCould not fetch snapshots in group '$resourceGroupName'"
     }
     elseif (!$snapshotList) {
-        throw "`nThere are no snapshots in resource group '$resourceGroupName'.`n"
+        Write-Host "There are no snapshots in resource group '$resourceGroupName'.`n" -ForegroundColor Yellow
     }
     Return $snapshotList
 }

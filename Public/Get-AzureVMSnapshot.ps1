@@ -26,5 +26,5 @@ function Get-AzureVMSnapshot {
 
     $resourceGroupName = Confirm-RessourceGroupName -resourceGroupName $resourceGroupName
     $snapshotList = Confirm-SnapshotList -resourceGroupName $resourceGroupName
-    Write-Host $snapshotList
+    Write-Host $snapshotList | Format-List
 }
